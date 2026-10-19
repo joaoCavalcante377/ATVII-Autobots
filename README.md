@@ -2,7 +2,6 @@
 
 Continuação da ATVI: API para cadastro de clientes, documentos, telefones e endereços com os níveis de maturidade REST de Richardson. Desenvolvida com Java, Spring Boot, Spring Data JPA, Spring HATEOAS e H2.
 
-Base: [ATVI do projeto](https://github.com/joaoCavalcante377/ATVI-Autobots). Referência da segunda atividade: [código inicial do professor Gerson Penha](https://github.com/gerson-pn/atvii-autobots-microservico-spring).
 
 ## Como executar
 
@@ -217,4 +216,3 @@ Os erros usam `application/problem+json`, com campos como `status`, `title` e `d
 
 O teste básico original continua em `src/test`. A implementação também foi verificada com requisições HTTP em banco temporário, abrangendo os CRUDs, links, formulários, erros e exclusão em cascata.
 
-Referências: [Spring HATEOAS](https://docs.spring.io/spring-hateoas/docs/current/reference/html/) e [Richardson Maturity Model](https://martinfowler.com/articles/richardsonMaturityModel.html).
